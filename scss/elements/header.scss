@@ -1,0 +1,24 @@
+.header{
+    background-color: antiquewhite;
+    font-family: $fontMain;
+    .navbar-brand{
+        font-family: $fontTitle;
+    }
+    .navbar-collapse{
+        transition: all 0.5s ease 0s;
+        .navbar-nav{
+            margin-top: 5px;
+            background-color: #A64B2A;
+            border-radius: 10px;
+            border: 1px solid whitesmoke;
+            .nav-item{
+                margin: 12.6% 0px;
+                .nav-link{
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.footer {
+  border-top: 0.5px solid black;
+  background-color: #A97155; }
+  .footer .footer_content .footer_icons {
+    padding: 2rem; }
+  .footer .copyright {
+    background-color: #BE8C63;
+    margin: 0% 1rem;
+    border-radius: 5px 5px 0% 0%; }
+
+.header {
+  background-color: antiquewhite;
+  font-family: "Nunito", sans-serif; }
+  .header .navbar-brand {
+    font-family: "Lora", serif; }
+  .header .navbar-collapse {
+    transition: all 0.5s ease 0s; }
+    .header .navbar-collapse .navbar-nav {
+      margin-top: 5px;
+      background-color: #A64B2A;
+      border-radius: 10px;
+      border: 1px solid whitesmoke; }
+      .header .navbar-collapse .navbar-nav .nav-item {
+        margin: 12.6% 0px; }
+        .header .navbar-collapse .navbar-nav .nav-item .nav-link {
+          font-size: 25px;
+          font-weight: bold;
+          color: aliceblue; }
+
+.main {
+  font-family: "Nunito", sans-serif; }
+  .main .presentacion {
+    background-image: url(../../assets/img/paisaje.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 93vh; }
+    .main .presentacion .card {
+      padding: 0%;
+      border: 0px; }
+      .main .presentacion .card .card-img-overlay .card_title-position .card-title {
+        padding-top: 30%;
+        padding-bottom: 1rem;
+        font-family: "Lora", serif;
+        font-size: 40px; }
+      .main .presentacion .card .card-img-overlay .card_text-position {
+        display: flex;
+        justify-content: center; }
+        .main .presentacion .card .card-img-overlay .card_text-position .card-text {
+          font-size: 22px;
+          padding: 0px 1.5rem; }
+
+.main .bienvenida {
+  padding: 1rem; }
+  .main .bienvenida .bienvenida_title-position .bienvenida_title {
+    font-weight: bold;
+    font-size: 35px;
+    color: black; }
+  .main .bienvenida .bienvenida_text-position .bienvenida_text {
+    font-size: 20px;
+    color: black; }

@@ -1,0 +1,33 @@
+.main{
+    font-family: $fontMain;
+    .presentacion{
+        background-image: url(../../assets/img/paisaje.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 93vh;
+        .card{
+            padding: 0%;
+            border: 0px;
+            .card-img-overlay{
+                .card_title-position{
+                    .card-title{
+                        padding: {
+                            top: 30%;
+                            bottom: 1rem;
+                        }
+                        font-family: $fontTitle;
+                        font-size: 40px;
+                    }
+                }
+                .card_text-position{
+                    display: flex;
+                    justify-content: center;
+                    .card-text{
+                        font-size: 22px;
+                        padding: 0px 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.main{
+    .bienvenida{
+        padding: 1rem;
+        .bienvenida_title-position{
+            .bienvenida_title{
+                font-weight: bold;
+                font-size: 35px;
+                color: black;
+            }
+        }
+        .bienvenida_text-position{
+            .bienvenida_text{
+                font-size: 20px;
+                color: black;
+            }
+        }
+    }
+}
